@@ -2,7 +2,7 @@ const {sum,multiply,substract} = require("../src/helper");
 
 describe("Helpers function",()=>{
     test('2+2=4',()=>{
-        expect(sum(2,2)).toBe(3)
+        expect(sum(2,2)).toBe(4)
     })
 
     test('0+0=0 ',()=>{
@@ -13,7 +13,7 @@ describe("Helpers function",()=>{
 
 describe("Multiply function",()=>{
     test('2*2=4',()=>{
-        expect(multiply(2,2)).toBe(3)
+        expect(multiply(2,2)).toBe(4)
     })
 
     test('0*0=0',()=>{
